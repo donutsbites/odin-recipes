@@ -1,4 +1,7 @@
 body {
+  padding: 10px;
+  font-family: monospace;
+  text-align: center;
   background-image: linear-gradient(to bottom,  rgba(51, 163, 94, 0.106) 25%, rgba(245, 114, 0, 0.668));
   height: 100%;
   margin: 0%;
@@ -7,7 +10,17 @@ body {
 }
 
 a {
+  color: black;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+a:active {
+  color: red;
 }
 
 h1{
@@ -24,12 +37,7 @@ h1{
   -webkit-text-stroke-width: 0px;
   -webkit-text-stroke-color: black;  
 }
- .links {
-    text-align: center;
-    color: rgb(0, 46, 250);
-  }
-
-  .box {
+.box {
       border-radius: 25px;
       border: 8px solid rgba(255, 0, 144, 0.288);
       background-color: rgba(255, 0, 144, 0.223);
